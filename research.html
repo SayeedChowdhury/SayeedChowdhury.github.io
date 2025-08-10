@@ -12,65 +12,42 @@
 <body>
 <div class="nav">
   <div class="inner container">
-    <div class="brand"><span class="dot"></span> <a href="index.html" style="color:white;text-decoration:none;">Sayeed S. Chowdhury</a></div>
+    <div class="brand"><span class="dot"></span> <a href="index.html" style="text-decoration:none;color:inherit;">Sayeed S. Chowdhury</a></div>
     <div style="margin-left:auto; display:flex; gap:6px; flex-wrap:wrap">
-      <a href="index.html">Home</a>
-      <a href="research.html">Research</a>
-      <a href="teaching.html">Teaching & Mentorship</a>
-      <a href="experience.html">Experience</a>
-      <a href="publications.html">Publications</a>
-      <a href="awards.html">Awards</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" class="">Home</a>
+      <a href="teaching.html" class="">Teaching & Mentorship</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="experience.html" class="">Experience</a>
+      <a href="publications.html" class="">Publications</a>
+      <a href="awards.html" class="">Awards</a>
+      <a href="contact.html" class="">Contact</a>
     </div>
   </div>
 </div>
 <div class="container">
 
-  <section class="section">
-    <div class="title">
-      <div>
-        <div class="kicker">Research</div>
-        <h2>Areas & Selected Projects</h2>
-      </div>
+<section class="section">
+  <div class="title"><div><div class="kicker">Research</div><h2>Areas & Selected Projects</h2></div></div>
+  <div class="cards">
+    <div class="card grid-12">
+      <h3>Spiking Neural Networks (SNNs)</h3>
+      <div class="muted">Ultra-low latency, energy-efficient vision and sequential tasks</div>
+      <p>Temporal pruning and DCT-based encodings for latency and energy gains; frequency-domain analysis of leak parameters for robustness.</p>
+      <span class="pill">Energy-efficient AI</span><span class="pill">Neuromorphic</span><span class="pill">ECCV/ICCV</span>
     </div>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Spiking Neural Networks (SNNs)</h3>
-        <div class="meta">Ultra-low latency, energy-efficient vision and sequential tasks</div>
-        <p>Temporal pruning and DCT-based encodings for latency and energy gains; frequency-domain analysis of leak parameters for robustness.</p>
-        <div class="pill">Energy-efficient AI</div><div class="pill">Neuromorphic</div><div class="pill">ECCV/ICCV</div>
-      </div>
-
-      <div class="card">
-        <h3>Unsupervised Video Understanding</h3>
-        <div class="meta">OPEL: Optimal Transport guided Procedure Learning</div>
-        <p>22% accuracy gains on temporal localization of key surgical steps, collaborating with IU Health.</p>
-        <div class="pill">Optimal Transport</div><div class="pill">Surgical AI</div><div class="pill">NeurIPS 2024</div>
-      </div>
-
-      <div class="card">
-        <h3>Biomedical AI</h3>
-        <div class="meta">Echocardiography & CT-based pipelines</div>
-        <p>UNet-based segmentation on CAMUS with ResNet-style skips; CT multimodal pipelines improving prediction accuracy by ~5%.</p>
-        <div class="pill">Segmentation</div><div class="pill">Multimodal</div><div class="pill">Healthcare</div>
-      </div>
-
-      <div class="card">
-        <h3>Large-scale Ranking Models</h3>
-        <div class="meta">Ads ranking at Meta</div>
-        <p>Modeled user behavior with event features, improving foundation model ranking by 0.4–1%.</p>
-        <div class="pill">Recommenders</div><div class="pill">Foundations</div>
-      </div>
+    <div class="card grid-12">
+      <h3>Unsupervised Video Understanding (OPEL)</h3>
+      <div class="muted">Optimal Transport guided procedure learning</div>
+      <p>Improvements on temporal localization of key surgical steps with clinical collaborators.</p>
+      <span class="pill">Optimal Transport</span><span class="pill">Surgical AI</span><span class="pill">NeurIPS 2024</span>
     </div>
-
-    <h2>Current Directions</h2>
-    <ul>
-      <li>Efficient SNN training with learned frequency encodings</li>
-      <li>Self-supervised pipelines for medical video</li>
-      <li>Fairness and robustness in clinical prediction under shift</li>
-    </ul>
-  </section>
+    <div class="card grid-12">
+      <h3>Biomedical AI</h3>
+      <div class="muted">Echocardiography & CT-based pipelines</div>
+      <p>UNet-based segmentation on CAMUS with ResNet-style skips; CT multimodal pipelines improving prediction accuracy.</p>
+    </div>
+  </div>
+</section>
 
 </div>
 <div class="footer">© 2025 Sayeed Shafayet Chowdhury • Built with GitHub Pages</div>
