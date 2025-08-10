@@ -1,13 +1,13 @@
 
 :root{
-  --bg:#0e1320;          /* deep ink */
+  --bg:#0e1320;
   --bg-grad1:#121a2d;
-  --panel:#151b2e;       /* dark panel */
-  --panel-2:#101626;     /* darker panel */
-  --ink:#e9eef7;         /* primary text */
-  --muted:#b4c0d6;       /* secondary text */
-  --navy:#92b4ff;        /* accent (subtle navy-light) */
-  --gold:#f3c77a;        /* secondary accent */
+  --panel:#151b2e;
+  --panel-2:#101626;
+  --ink:#e9eef7;
+  --muted:#b4c0d6;
+  --navy:#92b4ff;
+  --gold:#f3c77a;
   --border:rgba(255,255,255,.08);
   --shadow:0 16px 40px rgba(0,0,0,.45);
   --radius:16px;
@@ -51,7 +51,7 @@ body{
   box-shadow:var(--shadow);
   padding:24px;
 }
-h1{font-size:32px; /* smaller name */ margin:0 0 4px}
+h1{font-size:32px; margin:0 0 4px}
 h2{font-size:24px;margin:16px 0 10px;color:var(--navy)}
 h3{font-size:18px;margin:0 0 6px}
 .lead{color:var(--muted); font-size:16px}
