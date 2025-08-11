@@ -1,15 +1,15 @@
 
 :root{
-  --bg:#0e1320;
-  --bg-grad1:#121a2d;
-  --panel:#151b2e;
-  --panel-2:#101626;
-  --ink:#e9eef7;
-  --muted:#b4c0d6;
-  --navy:#92b4ff;
-  --gold:#f3c77a;
-  --border:rgba(255,255,255,.08);
-  --shadow:0 16px 40px rgba(0,0,0,.45);
+  --bg:#f4f5f7;
+  --bg-grad1:#e8ebf0;
+  --panel:#ffffff;
+  --panel-2:#f1f3f6;
+  --ink:#222222;
+  --muted:#555555;
+  --navy:#336699;
+  --gold:#c88b00;
+  --border:rgba(0,0,0,.08);
+  --shadow:0 4px 20px rgba(0,0,0,.1);
   --radius:16px;
 }
 
