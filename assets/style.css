@@ -3,12 +3,12 @@
   --bg:#f4f5f7;
   --bg-grad1:#e8ebf0;
   --panel:#ffffff;
-  --panel-2:#f1f3f6;
+  --panel-2:#f5f7fb;
   --ink:#222222;
   --muted:#555555;
   --navy:#336699;
   --gold:#c88b00;
-  --border:rgba(0,0,0,.08);
+  --border:#d9dee7;
   --shadow:0 4px 20px rgba(0,0,0,.1);
   --radius:16px;
 }
@@ -100,3 +100,17 @@ a:visited {
   color: #f5c542;
 }
 
+
+/* Light theme link & nav refinements */
+.nav a { color: var(--muted); }
+.nav a.active, .nav a:hover { color: var(--navy); background:#eff3f8; }
+
+/* Buttons: ensure readable on light */
+.button { background:#eef3f8; border:1px solid #d6deea; }
+.button.secondary { background:#ffffff; border:1px solid #e4e8ef; }
+
+/* Badges: softer */
+.badge{ background:#f1f5fb; border:1px solid #dfe8f4; color:#2b4a6a; }
+
+/* Cards grid spacing on light */
+.cards{ gap:20px }
