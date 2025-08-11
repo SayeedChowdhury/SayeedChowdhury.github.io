@@ -82,17 +82,3 @@ h3{font-size:18px;margin:0 0 6px}
   body{background:white;color:#111}
   .card{box-shadow:none}
 }
-
-a {
-  color: #f1c40f; /* light gold for links */
-  text-decoration: none; /* optional: removes underline */
-}
-
-a:hover {
-  color: #ffd700; /* brighter gold on hover */
-  text-decoration: underline; /* optional: show underline on hover */
-}
-
-a:visited {
-  color: #f1c40f; /* keep same as normal links */
-}
